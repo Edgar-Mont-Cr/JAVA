@@ -15,7 +15,7 @@ public class Ciclos {
         byte resp;
         do{
             peso = Integer.parseInt(JOptionPane.showInputDialog("captura tu peso"));
-            estatura = Integer.parseInt(JOptionPane.showInputDialog("captura tu estatura con formato de metros"));
+            estatura = Float.parseFloat(JOptionPane.showInputDialog("captura tu estatura con formato de metros"));
             imc = (peso/(estatura*estatura));
             if (imc<18.29){
                 JOptionPane.showMessageDialog(null,"peso bajo");
@@ -23,7 +23,7 @@ public class Ciclos {
             else if (imc>=18.50 && imc <= 24.99){
                 JOptionPane.showMessageDialog(null, "peso normal");
             }
-            else if (imc>=25 && imc <=24.99){
+            else if (imc>=25 && imc <=29.99){
                 JOptionPane.showMessageDialog(null,"sobrepeso");
             }
             else if (imc>=30 && imc<=34.99){
