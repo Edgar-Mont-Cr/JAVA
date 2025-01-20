@@ -1,12 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 import javax.swing.JOptionPane;
-/**
- *
- * @author aspire
- */
 public class COLOR {
     public static void main(String[] args){
         JOptionPane.showMessageDialog(null,"BIENVENIDO A LA CAFETERIA");
@@ -26,6 +18,7 @@ public class COLOR {
         }
         else if (n == 5){
             pagar = (short)(cost-(cost*0.28));
+            
             JOptionPane.showMessageDialog(null,"GENIAL VAS A PAGAR $" + pagar);
         }
         else if (n == 8){
