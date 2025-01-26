@@ -1,6 +1,8 @@
+package Primeroparte;
+
 import javax.swing.JOptionPane;
 public class COLOR {
-    public static void main(String[] args){
+    public void par7(){
         JOptionPane.showMessageDialog(null,"BIENVENIDO A LA CAFETERIA");
         int cost = Integer.parseInt(JOptionPane.showInputDialog(null,"INGRESA EL COSTO TOTAL DE LO COMPRADO"));
         short pagar;

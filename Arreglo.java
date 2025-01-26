@@ -1,6 +1,8 @@
+package Primeroparte;
+
 import javax.swing.JOptionPane;
 public class Arreglo {
-    public static void main(String[] args) {
+    public void par14() {
         String materias[]={"CALCULO","FUNDAIN","QUIMICA","DESASUS","MATEDIS","FUNDPRO","TUTORIA"};
         String encabezado[]={"MATERIA","U1","U2","U3","U4","U5","PROMEDIO"};
         int[][] tipo = new int[7][5]; 
@@ -15,7 +17,7 @@ public class Arreglo {
         for (int i = 0; i < materias.length; i++) {
             System.out.print(materias[i]);
             byte R=0;
-            promt=0;            
+            promt=0;
             for (int j = 0; j < 5; j++) {
                 R=(byte)(R+1);
                 tipo[i][j]=Integer.parseInt(JOptionPane.showInputDialog
