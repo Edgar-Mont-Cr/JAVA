@@ -15,9 +15,13 @@ public class pla {
                                                        """));
         switch  (x){
             case 1:
-                JOptionPane.showInternalMessageDialog(null,"");
+                JOptionPane.showInternalMessageDialog(null,"GRACIAS POR ELEGIRNOS \n "
+                        + "EL COSTE (YODO INCLUIDO) ES DE $12,000 \n "
+                        + "DISFUITE DE SU VIAJE");
                 break;
             case 2:
+                JOptionPane.showMessageDialog(null,"PAR FAVOR SIGA LAS INDICACIONES DEL GUARDABOSUQES \n "
+                        + "");
                 break;
             case 3:
                 break;
